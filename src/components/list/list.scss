@@ -1,0 +1,44 @@
+.list-container {
+  margin-top: 20px;
+  overflow-y: auto;
+  .list-item {
+    display: grid;
+    grid-template-columns: [left] 50% [right] 50%;
+    background-color: whitesmoke;
+    border: 0.2px white outset;
+    padding: 0.4rem;
+    &.mobile {
+      grid-template-columns: [left] 100%;
+    }
+    .info-section{
+      grid-area: left;
+      .resteraunt-title{
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0.6rem;
+      }
+  
+      .subtitle-list {
+        padding: 10px;
+      }
+  
+      .subtitle-list li {
+          display: inline;
+          margin-right: 0.6rem;
+      }
+  
+      .location-line {
+        margin: 10px;
+        color: slategray;
+      }
+    }
+    .photo-section {
+      grid-area: right;
+      justify-self: end;
+    }
+
+  }
+  .list-item:nth-child(odd) { 
+    background: white;
+  }
+}

@@ -1,0 +1,26 @@
+.main-container {
+  display: grid;
+  grid-template-columns: [sidebar] 40% [main] 60%;
+  &.mobile{
+    display: block;
+  }
+  .map-container {
+    margin-top: 10px;
+    grid-area: main;
+  }
+  .list-container {
+    grid-area: sidebar;
+  }
+}
+
+.top-nav{
+  grid-template-columns: [left] 50% [right] 50%;
+  grid-template-rows: [top] 50px [bottom] 50px;
+  display: grid;
+  background: darkslateblue;
+  height: 100px;
+  .search-bar{
+    grid-column-start: left;
+    grid-column-end: right;
+  }
+}
