@@ -26,7 +26,8 @@ function ListItem({ isMobile,
                 </ul>
                 <div className="location-line">{locationLine}</div>
             </div>
-            {isMobile ? null : <div className="photo-section"><img src={image_url} height="150px"/></div>}
+            {/* the images they supply are all different sizes and look kinda awful.  Decided to leave it out.  */}
+            {/* {isMobile ? null : <div className="photo-section"><img src={image_url} height="150px"/></div>} */}
         </div>
     );
 };

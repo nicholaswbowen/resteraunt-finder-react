@@ -15,17 +15,19 @@ const MapWithAMarker = ({
 }) => {
   return (
     <GoogleMap
-      defaultZoom={12}
+      defaultZoom={mapZoom}
       center={currentCoords}
       ref={onMapMounted}
       onZoomChanged={onZoomChanged}
       mapZoom={mapZoom}
       onDragEnd={onDragEnd}
     >
-    {resteraunts.map(({ id, coordinates: { latitude, longitude }  }) => (
+    {resteraunts.map(({ id, name, url, coordinates: { latitude, longitude }  }) => (
         <Marker
           key={id}
           position={{ lat: latitude, lng: longitude }}
+          title={name}
+          onClick={()=> window.open(url, "_blank")}
         />
       ))}
     </GoogleMap>

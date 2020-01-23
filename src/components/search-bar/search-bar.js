@@ -1,4 +1,3 @@
-import './search-bar.scss';
 import 'react-google-places-autocomplete/dist/assets/index.css';
 import * as React from 'react';
 import { connect } from 'react-redux';
@@ -8,7 +7,6 @@ import GooglePlacesAutocomplete, { getLatLng, geocodeByPlaceId } from 'react-goo
 export function SearchBar({ onChange, currentCoords, mapSearchRadius }){
     return (
       <GooglePlacesAutocomplete
-        className='search-bar'
         onSelect={onChange}
         placeholder="Address, location, landmark, etc"
         autocompletionRequest={{

@@ -1,6 +1,6 @@
 .list-container {
-  margin-top: 20px;
   overflow-y: auto;
+  margin-top: 10px;
   .list-item {
     display: grid;
     grid-template-columns: [left] 50% [right] 50%;

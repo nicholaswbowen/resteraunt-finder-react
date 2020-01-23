@@ -1,4 +1,10 @@
 .toggle-switch{
-  display: inline-block;
-  text-align: initial;
+  display: inline-flex;
+  text-align: center;
+  margin: auto;
+  color: whitesmoke;
+  svg, .icon-title {
+    align-self: center;
+    font-weight: bold;
+  }
 }

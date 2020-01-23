@@ -1,6 +1,6 @@
 import { zoomToRadius } from '../../../util/zoom-to-radius';
 
-const mapZoom = 12;
+const mapZoom = 16;
 const mapSearchRadius = zoomToRadius(mapZoom);
 
 const initialState = {

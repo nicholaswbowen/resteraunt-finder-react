@@ -24,12 +24,14 @@ function App({ coords, dispatch }) {
   return (
     <>
       <div className="top-nav">
+        <div className="top-section">
         <LocationToggle />
-          <ToggleSwitch
-            onClick={() => setforceShowMap(!forceShowMap)}
-            enabled={forceShowMap}
-            text="Show on Map"
-          />
+        {isMobile ? <ToggleSwitch
+          onClick={() => setforceShowMap(!forceShowMap)}
+          enabled={forceShowMap}
+          text="Show on Map"
+        /> : null}
+        </div>
         <SearchBar />
       </div>
       <div className={`main-container ${mediaClass}`}>
