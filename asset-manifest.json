@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/resteraunt-finder-react/static/css/main.e9a00f89.chunk.css",
+    "main.js": "/resteraunt-finder-react/static/js/main.351ba788.chunk.js",
+    "main.js.map": "/resteraunt-finder-react/static/js/main.351ba788.chunk.js.map",
+    "runtime-main.js": "/resteraunt-finder-react/static/js/runtime-main.73295241.js",
+    "runtime-main.js.map": "/resteraunt-finder-react/static/js/runtime-main.73295241.js.map",
+    "static/css/2.fa0c4f0f.chunk.css": "/resteraunt-finder-react/static/css/2.fa0c4f0f.chunk.css",
+    "static/js/2.a8fbdf2a.chunk.js": "/resteraunt-finder-react/static/js/2.a8fbdf2a.chunk.js",
+    "static/js/2.a8fbdf2a.chunk.js.map": "/resteraunt-finder-react/static/js/2.a8fbdf2a.chunk.js.map",
+    "index.html": "/resteraunt-finder-react/index.html",
+    "precache-manifest.0c385ee1fbdb4d5552d75602b60f17e0.js": "/resteraunt-finder-react/precache-manifest.0c385ee1fbdb4d5552d75602b60f17e0.js",
+    "service-worker.js": "/resteraunt-finder-react/service-worker.js",
+    "static/css/2.fa0c4f0f.chunk.css.map": "/resteraunt-finder-react/static/css/2.fa0c4f0f.chunk.css.map",
+    "static/css/main.e9a00f89.chunk.css.map": "/resteraunt-finder-react/static/css/main.e9a00f89.chunk.css.map",
+    "static/js/2.a8fbdf2a.chunk.js.LICENSE": "/resteraunt-finder-react/static/js/2.a8fbdf2a.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73295241.js",
+    "static/css/2.fa0c4f0f.chunk.css",
+    "static/js/2.a8fbdf2a.chunk.js",
+    "static/css/main.e9a00f89.chunk.css",
+    "static/js/main.351ba788.chunk.js"
+  ]
+}
